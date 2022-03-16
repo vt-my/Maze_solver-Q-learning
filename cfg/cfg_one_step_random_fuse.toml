@@ -1,0 +1,17 @@
+[data]
+    plot_path = './plot'
+    items_path = './png'
+    maze_path = './maze'
+
+[maze]
+    generator = 'random_fuse'
+    width = 10
+    height = 15
+    nb_maze = 1
+
+[solver]
+    nb_epoch = 200
+    nb_step = 4000
+    epsilon = 0.99
+    alpha = 0.8
+    gamma = 1

@@ -1,0 +1,17 @@
+[data]
+    plot_path = './plot'
+    items_path = './png'
+    maze_path = './maze'
+
+[maze]
+    generator = 'exhaustive_search'
+    width = 20
+    height = 25
+    nb_maze = 1
+
+[solver]
+    nb_epoch = 200
+    nb_step = 4000
+    epsilon = 0.99
+    alpha = 0.7
+    gamma = 1
